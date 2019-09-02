@@ -6,6 +6,12 @@ import store from './store'
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 
+import api from "./api"
+import ajax from "./ajax"
+
+Vue.prototype.$api = api;    //  全局挂载
+Vue.prototype.$ajax = ajax;  //  全局挂载
+
 Vue.use(iView);
 
 Vue.config.productionTip = false;

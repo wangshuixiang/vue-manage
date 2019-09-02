@@ -13,7 +13,6 @@
     "iview": "^3.4.2",
     "less": "^3.9.0",
     "vue": "^2.6.10",
-    "vue-cropper": "^0.4.9",
     "vue-router": "^3.0.6"
   },
   "devDependencies": {
